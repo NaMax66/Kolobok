@@ -6,7 +6,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+import sun.rmi.runtime.Log;
+
 public class MyGdxGame extends ApplicationAdapter {
+
+	public static final String MAXIM_LOG = "MaximLog: ";
+
 	SpriteBatch batch;
 	Texture img;
 	
@@ -23,6 +28,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.begin();
 		batch.draw(img, 0, 0);
 		batch.end();
+
 	}
 	
 	@Override
