@@ -11,6 +11,7 @@ import sun.rmi.runtime.Log;
 public class MyGdxGame extends ApplicationAdapter {
 
 	public static final String MAXIM_LOG = "MaximLog: ";
+	public static String VENS_LOG = "NotMaximLog: ";
 
 	SpriteBatch batch;
 	Texture img;
