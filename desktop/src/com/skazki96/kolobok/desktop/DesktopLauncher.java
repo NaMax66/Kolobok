@@ -13,5 +13,6 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new MyGdxGame(), config);
 		System.out.println(MAXIM_LOG + " desktop is running");
+		
 	}
 }
